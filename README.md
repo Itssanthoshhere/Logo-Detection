@@ -1,33 +1,9 @@
-Here you go, **Sandyy** — a **beautiful, highly-professional, Github-ready README.md** for your **Logo Detection Flask Project**, designed in the same aesthetic, structure, and style as your ChatApp README.
-
-It includes:
-✔ Centered banner section
-✔ Tech stack badges
-✔ Beautiful headings
-✔ Full documentation
-✔ Project workflow & architecture
-✔ Features
-✔ Quick Start
-✔ Project structure
-✔ Future enhancements
-
-You can copy–paste directly into **README.md**.
-
----
-
-# ⭐ **README.md – Logo Detection Flask App**
-
-_(fully formatted & GitHub ready)_
-
-```markdown
 <div align="center">
 
-<h1>🔍 AI Logo Detection – Flask + Deep Learning</h1>
+<h1>🔍 Logo Detection – Flask + Deep Learning</h1>
 
 A modern **deep learning–powered web application** that identifies brand logos from images using a trained **Xception CNN model**.  
 Built with **Flask**, **TensorFlow**, and a clean, interactive UI.
-
-<br/>
 
 <!-- Tech Stack Badges -->
 
@@ -41,13 +17,9 @@ Built with **Flask**, **TensorFlow**, and a clean, interactive UI.
   <img src="https://img.shields.io/badge/-CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 </div>
 
-<br/>
-
 <h3>✨ Deep Learning–Powered Brand Logo Recognition</h3>
-<b>Upload an image → AI predicts the brand logo with confidence.</b><br/>
-Trained on the **Flickr Logos 27 Dataset**, deployed via a clean Flask interface.
-
-<br/><br/>
+<b>Upload an image → Predicts the brand logo with confidence.</b><br/>
+Trained on the <b>Flickr Logos 27 Dataset</b>, deployed via a clean Flask interface.
 
 </div>
 
@@ -55,22 +27,38 @@ Trained on the **Flickr Logos 27 Dataset**, deployed via a clean Flask interface
 
 ## 📋 Table of Contents
 
+- [📋 Table of Contents](#-table-of-contents)
 - [✨ Introduction](#-introduction)
 - [⚙️ Tech Stack](#️-tech-stack)
+  - [🧠 Machine Learning](#-machine-learning)
+  - [🌐 Backend](#-backend)
+  - [🎨 Frontend](#-frontend)
 - [🔋 Features](#-features)
+  - [🔍 Logo Detection](#-logo-detection)
+  - [🖼️ Modern UI](#️-modern-ui)
+  - [🧠 Deep Learning](#-deep-learning)
+  - [🗂️ Flask Integration](#️-flask-integration)
 - [📁 Dataset](#-dataset)
 - [🤖 Model Architecture](#-model-architecture)
 - [🚀 Project Workflow](#-project-workflow)
 - [🤸 Quick Start](#-quick-start)
+  - [🔧 Prerequisites](#-prerequisites)
+  - [1️⃣ Clone Repository](#1️⃣-clone-repository)
+  - [2️⃣ Create Virtual Environment](#2️⃣-create-virtual-environment)
+  - [3️⃣ Install Dependencies](#3️⃣-install-dependencies)
+  - [4️⃣ Run the App](#4️⃣-run-the-app)
 - [🧱 Project Structure](#-project-structure)
 - [🖥️ App Flow](#️-app-flow)
 - [🧠 Architecture Overview](#-architecture-overview)
+  - [🧩 Backend (Flask)](#-backend-flask)
+  - [🎨 Frontend](#-frontend-1)
+  - [🤖 Deep Learning Model](#-deep-learning-model)
 - [🚀 Future Enhancements](#-future-enhancements)
 - [🤝 Contribution](#-contribution)
 - [🔗 Contacts](#-contacts)
 - [📄 License](#-license)
 - [🙏 Acknowledgements](#-acknowledgements)
-- [⭐ Show Your Support](#-show-your-support)
+  - [⭐ Show Your Support](#-show-your-support)
 
 ---
 
@@ -155,6 +143,7 @@ This project uses the **Flickr Logos 27 Dataset**, which contains:
 - Distractor images
 
 Dataset includes brands such as:
+
 ```
 
 Adidas, Apple, BMW, CocaCola, Ferrari, Ford, Google, Intel, Nike,
@@ -165,6 +154,7 @@ Pepsi, Porsche, Puma, RedBull, Starbucks, Yahoo, Vodafone, McDonalds, etc.
 ---
 
 ## 🤖 Model Architecture
+
 Built using **Transfer Learning**:
 
 - Backbone: **Xception (pretrained on ImageNet)**
@@ -184,7 +174,7 @@ The model is exported as:
 
 logo.h5
 
-````
+```
 
 ---
 
@@ -205,6 +195,7 @@ logo.h5
 ## 🤸 Quick Start
 
 ### 🔧 Prerequisites
+
 - Python 3.8+
 - pip
 - Virtual environment recommended
@@ -212,10 +203,11 @@ logo.h5
 ---
 
 ### 1️⃣ Clone Repository
+
 ```bash
-git clone https://github.com/yourusername/logo_flask_full.git
-cd logo_flask_full
-````
+git clone https://github.com/itssanthoshhere/Logo-Detection.git
+cd Logo-Detection
+```
 
 ### 2️⃣ Create Virtual Environment
 
@@ -335,8 +327,8 @@ Contributions are welcome!
 
 ## 🔗 Contacts
 
-- **GitHub:** [https://github.com/yourusername](https://github.com/yourusername)
-- **LinkedIn:** [https://linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- **GitHub:** [Itssanthoshhere](https://github.com/Itssanthoshhere)
+- **LinkedIn:** [Santhosh VS](https://linkedin.com/in/thesanthoshvs)
 
 ---
 
@@ -357,24 +349,8 @@ Logos belong to their respective brands.
 
 ---
 
-<div align="center">
-
 ### ⭐ Show Your Support
 
 If you like this project, **give it a star** ⭐ on GitHub — it motivates me to build more awesome ML apps!
 
-</div>
-```
-
 ---
-
-# ✅ Ready to copy & paste into `README.md` ✔
-
-If you want, I can also create:
-
-📌 `requirements.txt`
-📌 License file
-📌 Badges (build, version, model size)
-📌 Deployment guide (Render / Railway / AWS / Docker)
-
-Just tell me!

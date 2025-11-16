@@ -1,0 +1,83 @@
+# -----------------------------
+# Python cache & build files
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.log
+
+# -----------------------------
+# Virtual Environment
+# -----------------------------
+venv/
+env/
+ENV/
+.venv/
+
+# -----------------------------
+# OS / IDE specific files
+# -----------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# -----------------------------
+# Uploaded files / generated content
+# -----------------------------
+static/uploads/
+uploads/
+preview/
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# -----------------------------
+# Model / checkpoint files
+# (Keep logo.h5 if you want it in repo)
+# -----------------------------
+*.h5
+*.hdf5
+*.ckpt
+*.keras
+
+# Uncomment if you WANT to keep logo.h5
+# !logo.h5
+
+# -----------------------------
+# Jupyter Notebook checkpoints
+# -----------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# -----------------------------
+# Colab / Kaggle temp files
+# -----------------------------
+*.zip
+*.tar.gz
+*.tar
+*.tgz
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# Local configs
+# -----------------------------
+*.env
+.env.*
+config.json
+secrets.json

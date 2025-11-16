@@ -47,7 +47,7 @@ preview/
 # Model / checkpoint files
 # (Keep logo.h5 if you want it in repo)
 # -----------------------------
-*.h5
+# *.h5
 *.hdf5
 *.ckpt
 *.keras

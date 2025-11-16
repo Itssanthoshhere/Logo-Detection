@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Logo Detection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Logo Detection</h1>
+        <p class="subtitle">Upload an image and let the model identify the brand logo.</p>
+
+        {% if error %}
+        <div class="error">{{ error }}</div>
+        {% endif %}
+
+        <form action="/predict" method="post" enctype="multipart/form-data" class="upload-box" id="uploadForm">
+            <div id="drop-area">
+                <p>Drag & Drop your image here</p>
+                <span>or</span><br>
+                <input type="file" name="image" id="file-input" required>
+                <label for="file-input" class="file-label">Choose Image</label>
+            </div>
+
+            <div id="preview-container" style="display:none;">
+                <h3>Preview:</h3>
+                <img id="preview-img" src="#" alt="Preview Image">
+            </div>
+
+            <button type="submit" class="btn">Predict</button>
+        </form>
+
+        {% if prediction %}
+        <div class="result">
+            <h2>Prediction: <span>{{ prediction }}</span></h2>
+            <h3>Confidence: <span>{{ confidence }}%</span></h3>
+
+            <div class="result-img-box">
+                <img src="{{ image_path }}" alt="Uploaded Image">
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        // Preview image before upload
+        document.getElementById("file-input").addEventListener("change", function (event) {
+            const file = event.target.files[0];
+            if (file) {
+                const preview = document.getElementById("preview-container");
+                const img = document.getElementById("preview-img");
+                img.src = URL.createObjectURL(file);
+                preview.style.display = "block";
+            }
+        });
+    </script>
+
+</body>
+
+</html>
